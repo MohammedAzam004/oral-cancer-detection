@@ -1,0 +1,64 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local configuration and secrets
+.env
+.env.local
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+tmp/
+temp/
+*.tmp
+tests/tmp*/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Local datasets and experiment outputs
+Oral Cancer/
+Oral cancer Dataset 2.0/
+artifacts/
+reports/*
+!reports/training_report.json
+
+# Optional local evaluation folders
+evaluation/
+eval/
+data/eval/
+data/test/
+dataset/test/
