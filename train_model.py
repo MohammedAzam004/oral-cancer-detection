@@ -11,11 +11,11 @@ from pathlib import Path
 
 import cv2
 import numpy as np
+from keras.models import load_model
 import tensorflow as tf
 from tensorflow.keras.callbacks import CSVLogger, EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 from tensorflow.keras.losses import BinaryCrossentropy
 from tensorflow.keras.metrics import AUC, BinaryAccuracy, Precision, Recall
-from tensorflow.keras.models import load_model
 from tensorflow.keras.optimizers import Adam
 
 
